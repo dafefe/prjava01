@@ -15,6 +15,8 @@ public class Prjava01 {
 
         File f = new File("fitxer.html");
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
+            bw.write("    <h1>DAW2 m08uf4pr2</h1>");
+            bw.newLine();
             bw.write("<html>");
             bw.newLine();
             bw.write("  <head>");
